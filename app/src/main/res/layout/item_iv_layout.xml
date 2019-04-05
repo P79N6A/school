@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.idyoga.yoga.view.FlexibleTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--
+        qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm
+        -->
+        <TextView
+            android:id="@+id/tv_content"
+            android:text="qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm;qwertyuiopasdfghjklzxcvbnm"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:src="@drawable/nav_icon_positioning_default"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/tv_content"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+    </com.idyoga.yoga.view.FlexibleTextView>
+
+</android.support.constraint.ConstraintLayout>

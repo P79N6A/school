@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_tag"
+        android:layout_width="3dp"
+        android:background="#A873FB"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="鞍山"
+        android:textColor="@color/text_color"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:src="@drawable/select" />
+
+</RelativeLayout>

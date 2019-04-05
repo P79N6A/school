@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="119dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+        <TextView
+            android:id="@+id/tv_course_name"
+            android:text="舒缓肩颈有氧操"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_course_introduce"
+            android:text="一种以肌肉震动为基础的节奏性很强的舞蹈"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:background="#F8F8F8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <ImageView
+            android:id="@+id/iv_arrange_course"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/course_icon_selected_default"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_width="17dp"
+            android:layout_height="17dp" />
+
+        <TextView
+            android:id="@+id/tv_arrange_course"
+            android:text="已排课表"
+            android:textSize="13sp"
+            android:textColor="#333333"
+            android:layout_toRightOf="@id/iv_arrange_course"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_eserve_num"
+            android:text="已预约666次"
+            android:textSize="13sp"
+            android:textColor="#333333"
+            android:layout_marginRight="12dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="#f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</LinearLayout>

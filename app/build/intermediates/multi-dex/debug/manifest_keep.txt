@@ -1,0 +1,3 @@
+# Referenced at /home/weilgu/newrepo/scroller/ZhXlApp/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:52
+-keep class com.idyoga.yoga.comm.AppContext { <init>(...); }
+

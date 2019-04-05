@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/view_comm_title"/>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <include
+        layout="@layout/view_horizontal_calendar_layout"/>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <!--<com.idyoga.yoga.view.HorizontalCalendar
+        android:id="@+id/hc_view"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+    </com.idyoga.yoga.view.HorizontalCalendar>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_layout_head"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_gravity="center_vertical"
+        android:layout_height="49dp">
+
+        <LinearLayout
+            android:id="@+id/ll_left_back"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:paddingLeft="6dp"
+            android:layout_width="35dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/left_back"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_left_close"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ll_left_back"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:paddingLeft="6dp"
+            android:layout_width="35dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/close"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_web_root"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+</LinearLayout>

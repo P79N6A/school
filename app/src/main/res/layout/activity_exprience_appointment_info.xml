@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_head"
+        layout="@layout/view_comm_title" />
+
+    <View
+        android:id="@+id/v_title_line"
+        android:background="#f8f8f8"
+        android:layout_below="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <include
+        layout="@layout/layout_course_info_list"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_foot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <include layout="@layout/view_line" />
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/play_btn_bg"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="支付"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

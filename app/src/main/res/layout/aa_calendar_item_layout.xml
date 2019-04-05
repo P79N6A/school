@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="25dp"
+    android:gravity="center"
+    android:layout_marginRight="13dp"
+    android:layout_height="44dp">
+
+    <TextView
+        android:id="@+id/tv_calendar_num"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="22"
+        android:textColor="@color/text_color"
+        android:background="@drawable/calendar_select_bg"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+</LinearLayout>

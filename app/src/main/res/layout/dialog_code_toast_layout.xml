@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bgcc_08"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <TextView
+        android:id="@+id/tv_dia_title"
+        android:text="请输入正确的卡号"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+    </TextView>
+
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:id="@+id/tv_confirm"
+        android:text="确认"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:background="@null"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+
+        <vip.devkit.view.common.dtextview.DrawableTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="心志修养"
+            app:drawableHeight="32dp"
+            app:drawablePosition="top"
+            app:drawableSrc="@drawable/default_course_img"
+            app:drawableWidth="32dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f2f2f2" />
+
+</LinearLayout>

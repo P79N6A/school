@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f8f8f8"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/cl_title"
+        layout="@layout/view_comm_title" />
+
+    <View
+        android:id="@+id/v_title_line"
+        android:background="#f8f8f8"
+        android:layout_below="@+id/cl_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <View
+        android:id="@+id/v_horizontal_center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <View
+        android:id="@+id/v_vertical_center"
+        android:layout_centerInParent="true"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:src="@drawable/order_success"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/v_horizontal_center"
+        android:layout_width="300dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tv_sub"
+        android:text="预约已提交"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/v_horizontal_center"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_below="@+id/tv_sub"
+        android:text="客服将会尽快与您联系"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_below="@+id/tv_center"
+        android:text="请耐心等待"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_see_detail"
+        android:layout_marginTop="25dp"
+        android:textColor="#FC684E"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="查看预约详情"
+        android:layout_marginRight="7.5dp"
+        android:background="@drawable/bg_activa_card_back"
+        android:layout_alignRight="@id/v_vertical_center"
+        android:layout_below="@+id/tv_bottom"
+        android:layout_width="110dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/tv_again"
+        android:layout_marginTop="25dp"
+        android:textColor="#FC684E"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="继续预约"
+        android:layout_marginLeft="7.5dp"
+        android:background="@drawable/bg_activa_card_back"
+        android:layout_alignLeft="@id/v_vertical_center"
+        android:layout_below="@+id/tv_bottom"
+        android:layout_width="110dp"
+        android:layout_height="45dp" />
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateView">
+        <attr name="emptyResource" format="reference" />
+        <attr name="retryResource" format="reference" />
+        <attr name="loadingResource" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PileLayout">
+        <attr name="PileLayout_vertivalSpace" format="dimension"/>
+        <attr name="PileLayout_pileWidth" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AbsRoundImageView">
+        <attr name="round_borderWidth" format="dimension|reference"/>
+        <attr name="round_borderColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TableVIew">
+        <attr name="indicatorWidth" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="leftTopRadius" format="dimension|reference"/>
+        <attr name="rightTopRadius" format="dimension|reference"/>
+        <attr name="rightBottomRadius" format="dimension|reference"/>
+        <attr name="leftBottomRadius" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SDAvatarListLayout">
+        <!--创建的最大ImageView数量-->
+        <attr name="image_max_count" format="integer" />
+        <!--创建的ImageView的大小-->
+        <attr name="image_size" format="dimension" />
+        <!--要叠加的ImageView偏移量-->
+        <attr name="image_offset" format="float" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="SDCircleImageView">
+        <attr name="sd_civ_border_width" format="dimension" />
+        <attr name="sd_civ_border_color" format="color" />
+        <attr name="sd_civ_border_overlay" format="boolean" />
+        <attr name="sd_civ_fill_color" format="color" />
+        <attr name="sd_civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <attr name="styleYogaBaseLayoutManager" format="reference"/>
+
+    <declare-styleable name="YogaBaseLayoutManager">
+        <!-- 空布局资源id -->
+        <attr name="llEmptyResId" format="reference"/>
+        <!-- 加载中布局资源id -->
+        <attr name="llLoadingResId" format="reference"/>
+        <!-- 错误布局资源id -->
+        <attr name="llErrorResId" format="reference"/>
+        <!-- 网络错误 布局资源id-->
+        <attr name="llNetErrorResId" format="reference"/>
+        <!-- 空布局图片 -->
+        <attr name="llEmptyImage" format="reference"/>
+        <!-- 空布局文本 -->
+        <attr name="llEmptyText" format="string"/>
+
+        <!-- 错误布局图片 -->
+        <attr name="llErrorImage" format="reference"/>
+        <!-- 错误布局文本 -->
+        <attr name="llErrorText" format="string"/>
+        <!-- 错误布局重试按钮文本 -->
+        <attr name="llRetryText" format="string"/>
+        <!-- 文本颜色 -->
+        <attr name="llTextColor" format="color"/>
+        <!-- 文本尺寸 -->
+        <attr name="llTextSize" format="dimension"/>
+        <!-- 按钮文本颜色 -->
+        <attr name="llButtonTextColor" format="color"/>
+        <!-- 按钮文本尺寸 -->
+        <attr name="llButtonTextSize" format="dimension"/>
+        <!-- 按钮背景 -->
+        <attr name="llButtonBackground" format="reference"/>
+    </declare-styleable>
+
+    <style name="DarkAnimation">
+        <item name="android:windowEnterAnimation">@anim/dark_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/dark_fade_out</item>
+    </style>
+
+    <declare-styleable name="WrapLineLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLines" format="integer" />
+    </declare-styleable>
+
+    <!-- 末行对齐方式 -->
+    <declare-styleable name="AlignTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="YogaBanner">
+        <!--设置是否允许viewpager同一界面上显示多个页数 false 为允许-->
+        <attr name="clip_to_padding" format="boolean"/>
+        <!--允许viewpager同一界面上显示多个页数 中间页面的距离屏幕边的距离-->
+        <attr name="clip_padding" format="dimension"/>
+        <!--允许viewpager同一界面上显示多个页数 页面之间的距离-->
+        <attr name="clip_margin" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PicTextView">
+        <!--设置提示字体的大小-->
+        <attr name="message_text_size" format="dimension"/>
+        <!--设置当前价格字体的大小-->
+        <attr name="new_pic_text_size" format="dimension"/>
+        <!--设置原价字体的大小-->
+        <attr name="old_pic_text_size" format="dimension"/>
+        <!--设置提示字体的颜色-->
+        <attr name="message_text_color" format="color"/>
+        <!--设置当前价格字体的颜色-->
+        <attr name="new_pic_text_color" format="color"/>
+        <!--设置当前价格字体的颜色-->
+        <attr name="old_pic_text_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlexibleTextView">
+        <!--设置提示字体的大小-->
+        <attr name="flexible_text_size" format="dimension"/>
+        <!--最大显示行数-->
+        <attr name="flexible_max_line" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadow_radius" format="dimension" />
+        <attr name="shadow_alpha" format="float" />
+    </declare-styleable>
+
+</resources>

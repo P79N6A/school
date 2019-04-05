@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#50000000</color>
+    <color name="sc_transparent_background">#00111111</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bot_text_color_selected">#FEFFFF</color>
+    <!-- 字体颜色值 -->
+    <color name="text_color">#333333</color>
+    <color name="text_color_1">#404b69</color>
+    <color name="text_color_0">#000000</color>
+    <color name="text_color_3">#333333</color>
+    <color name="text_color_5">#cccccc</color>
+    <color name="text_color_6">#666666</color>
+    <color name="text_color_9">#999999</color>
+    <color name="text_color_c">#cccccc</color>
+    <color name="text_color_tab_1">#db0073</color>
+    <color name="text_color_tab_2">#8c8b8b</color>
+    <!-- 主背景色值 -->
+    <color name="theme_1">#b86caf</color>
+    <color name="theme_4">#c77bce</color>
+    <color name="theme_2">#db0073</color>
+    <color name="theme_3">#404b69</color>
+    <color name="theme_5">#404b69</color>
+
+
+    <!-- 设计规范颜色值 end-->
+    <color name="divider">#ffd2d2d2</color>
+    <color name="d_dc">#dcdcdc</color>
+    <color name="d_f2">#f2f2f2</color>
+    <color name="d_f4">#f4f4f4</color>
+
+
+    <color name="bg_d5">#d5d5d5</color>
+    <color name="bg_f2">#f2f2f2</color>
+    <color name="bg_f8">#f8f8f8</color>
+    <color name="bg_f4">#f4f4f4</color>
+    <color name="bg_f9">#f9f9f9</color>
+    <!-- 帮助中心-常见问题 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <!--首页 体验区 背景-->
+    <color name="home_experience_bg">#f4f4f4</color>
+    <!--首页体验区推荐课-->
+    <color name="home_experience_font_recommend_class">#333333</color>
+    <color name="home_experience_font_recommend_lesson_person_limit">#f549a3</color>
+    <color name="home_experience_font_recommend_item">#666666</color>
+    <!--体验课程预约人数-->
+    <color name="home_experience_couser_item_appointment">#dc0073</color>
+
+    <!--首页体验区推荐课预约按钮 背景色-->
+    <color name="home_experience_recommend_item_appointment">#db0073</color>
+
+
+    <!--首页体验区推荐课课程item分割线 -->
+
+    <color name="home_experience_recommend_item_view">#dcdcdc</color>
+
+
+    <color name="home_experience_recommend_appointment_head_bg">#bf6040</color>
+
+    <color name="home_bar_text_normal">#6a6c6f</color>
+    <color name="home_bar_text_push">#ff5959</color>
+    <color name="textnormal">#adadad</color>
+
+    <color name="divide_gray_color">#999999</color>
+    <color name="text_color_d">#dddddd</color>
+    <color name="text_color_r">#ee8953</color>
+
+    <color name="tab_bg">#f8f8f8</color>
+    <color name="tab_text">#f7f7f7</color>
+
+    <color name="partTranslucent">#39000000</color>
+
+    <!--登陆页的颜色-->
+    <color name="select_login_mode">#8338F9</color>
+    <color name="view_line">#A873FB</color>
+    <color name="un_select_login_mode_">#666666</color>
+    <color name="input_num">#333333</color>
+    <color name="hint_font">#999999</color>
+    <color name="wx_login_mode">#666666</color>
+    <color name="order_time_type">#FF5B5F</color>
+    <color name="title_alpha">#00FF5B5F</color>
+    <color name="again_appiontment">#E23C3D</color>
+    <color name="rlv_head">#EEE6FC</color>
+    <color name="rlv_head_h">#FCE7E6</color>
+
+
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.idyoga.yoga.view.ShadowLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sl_root"
+    android:layout_width="210dp"
+    android:elevation="10dp"
+    app:shadow_radius="5dp"
+    app:shadow_alpha="0.3"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="4dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="155dp" />
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.idyoga.yoga.view.ShadowLayout>

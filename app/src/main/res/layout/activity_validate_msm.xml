@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:id="@+id/ll_root"
+    android:orientation="vertical"
+    android:layout_width="279dp"
+    android:layout_height="334dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:src="@drawable/prize_icon_close_default"
+            android:layout_alignParentRight="true"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="275dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="5dp"
+        android:layout_height="291dp">
+
+        <LinearLayout
+            android:background="@drawable/ponit_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="19dp"
+            android:paddingRight="19dp">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/home_sign_default" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="签到成功"
+                android:textColor="#FC5639"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="明天继续签到\n可以获得xx积分哦"
+                android:textColor="@color/text_color"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_exchanger"
+                android:layout_width="180dp"
+                android:layout_height="75dp">
+
+                <ImageView
+                    android:src="@drawable/clock_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="去兑换"
+                    android:layout_marginTop="18dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:gravity="center_horizontal"/>
+            </RelativeLayout>
+
+            <!--
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_input_sms"
+                    android:hint="请输入验证码"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="19sp"
+                    android:maxLength="6"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:textColor="#181717"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/tv_get_msm"
+                    android:text="再次获取"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_width="99dp"
+                    android:layout_height="28dp" />
+
+            </LinearLayout>
+
+            <View
+                android:background="#DBD8D8"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>-->
+
+            <!--<TextView
+                android:id="@+id/tv_sure"
+                android:text="确定"
+                android:gravity="center"
+                android:layout_marginTop="29dp"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />-->
+
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="275dp"
+            android:layout_height="334dp"
+            android:gravity="center"
+            android:id="@+id/ll_root">
+        </LinearLayout>-->
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+

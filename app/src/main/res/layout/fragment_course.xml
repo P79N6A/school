@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/home_title_layout"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/cl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:descendantFocusability="blocksDescendants">
+            &lt;!&ndash;app:layout_behavior="com.idyoga.yoga.view.FlingBehavior"&ndash;&gt;
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/abl_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp" >
+
+                <android.support.design.widget.CoordinatorLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:layout_scrollFlags="scroll">
+                    &lt;!&ndash;app:layout_scrollFlags="scroll|enterAlways"&ndash;&gt;
+
+                    <LinearLayout
+                        android:id="@+id/ll_head_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_collapseMode="parallax"
+                        android:orientation="vertical">
+
+                        <com.idyoga.yoga.view.YogaBanner
+                            android:id="@+id/bv_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="144dp"
+                            android:src="@drawable/img_course"
+                            app:banner_default_image="@drawable/img_course"
+                            app:banner_image_scale_type="center_crop"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+                </android.support.design.widget.CoordinatorLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>-->
+
+
+    <!--<include
+        layout="@layout/layout_rv_list"
+        android:visibility="visible" />-->
+</LinearLayout>

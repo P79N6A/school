@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_comm_title" />
+
+    <RelativeLayout
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/ll_no_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/v_ver_center"
+                android:layout_centerInParent="true"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:id="@+id/v_center"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:src="@drawable/add_card"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/v_center"
+                android:layout_width="288dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="144dp" />
+
+            <TextView
+                android:id="@+id/tv_no_card"
+                android:text="你还没有权益卡哦"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/v_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_activa_card"
+                android:text="激活新卡"
+                android:gravity="center"
+                android:textColor="#FC684E"
+                android:textSize="14sp"
+                android:background="@drawable/bg_activa_card_back"
+                android:layout_toLeftOf="@id/v_ver_center"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_below="@id/tv_no_card"
+                android:layout_width="106dp"
+                android:layout_height="43dp" />
+
+            <TextView
+                android:id="@+id/tv_exchange"
+                android:text="积分兑换"
+                android:gravity="center"
+                android:textColor="#FC684E"
+                android:textSize="14sp"
+                android:background="@drawable/bg_activa_card_back"
+                android:layout_toRightOf="@id/v_ver_center"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="7.5dp"
+                android:layout_below="@id/tv_no_card"
+                android:layout_width="106dp"
+                android:layout_height="43dp" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_tabs"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+            <vip.devkit.view.common.tab.AdvancedPagerSlidingTabStrip
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                app:apTabDividerColor="#00000000"
+                app:apTabDrawMode="text"
+                app:apTabIndicatorColor="@color/theme_1"
+                app:apTabTextSelectColor="@color/theme_1"
+                app:apTabUnderlineColor="#00000000"
+                android:fillViewport="false" />
+        </FrameLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_below="@id/fl_tabs"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_common_layout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_title_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingRight="25dp">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:src="@drawable/video_icon_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_title_right"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/tv_title_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="14dp"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.idyoga.yoga.view.VideoPlayer
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/a_4_tag"
+                android:text="系列"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_course_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toStartOf="@+id/ll_description_switch"
+                android:layout_toEndOf="@+id/tv_tag"
+                android:lines="1"
+                android:text="安徽省的海大家啊【0sdp9asd0"
+                android:textColor="@color/text_color_3"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_description_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_description_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="简介"
+                    android:textColor="@color/text_color_6"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_description_switch"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/icon_more" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共3节 | 300人在学" />
+
+        <TextView
+            android:id="@+id/tv_free"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/again_appiontment"
+            android:text="免费" />
+
+        <TextView
+            android:id="@+id/tv_term"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:textSize="14sp"
+            android:text="12天内有效"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_order_video"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:background="#f8f8f8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rlv_other_video"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <!--<RelativeLayout
+            android:id="@+id/rl_buy_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#111111"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e8e8e8" />
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_buy_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="该视频为付费视频，VIP会员可免费观看"
+                    android:textColor="@color/white" />
+
+                <RadioGroup
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/tv_buy"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="5dp"
+                            android:background="@drawable/bg_video_buy_tips"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="购买观看"
+                        android:textColor="@drawable/bg_video_bug_font" />
+
+
+                    <RadioButton
+                        android:id="@+id/tv_buy_vip"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/bg_video_buy_tips"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="开通VIP会员"
+                        android:textColor="@drawable/bg_video_bug_font" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>-->
+
+        <!--<RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="match_parent">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rl_comment_layout">
+
+                <com.idyoga.live.view.CustomScrollView
+                    android:id="@+id/sv_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:fillViewport="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/tv_tag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="12dp"
+                                android:background="@drawable/a_4_tag"
+                                android:text="系列"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:id="@+id/tv_course_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_toStartOf="@+id/ll_description_switch"
+                                android:layout_toEndOf="@+id/tv_tag"
+                                android:lines="1"
+                                android:text="安徽省的海大家啊【0sdp9asd0"
+                                android:textColor="@color/text_color_3"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_description_switch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="12dp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tv_description_switch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="简介"
+                                    android:textColor="@color/text_color_6"
+                                    android:textSize="14sp" />
+
+                                <ImageView
+                                    android:id="@+id/iv_description_switch"
+                                    android:layout_width="22dp"
+                                    android:layout_height="22dp"
+                                    android:src="@drawable/icon_more" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="共3节 | 300人在学" />
+
+
+                            <vip.devkit.view.common.dtextview.DrawableTextView
+                                android:id="@+id/tv_like"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="13dp"
+                                android:layout_toStartOf="@+id/tv_collect"
+                                android:drawablePadding="5dp"
+                                android:text="999+"
+                                android:textColor="#999999"
+                                android:textSize="11sp"
+                                dt:drawableHeight="15dp"
+                                dt:drawablePosition="left"
+                                dt:drawableSrc="@mipmap/icon_dianzan_n"
+                                dt:drawableWidth="15dp" />
+
+                            <vip.devkit.view.common.dtextview.DrawableTextView
+                                android:id="@+id/tv_collect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="13dp"
+                                android:layout_toStartOf="@+id/iv_share"
+                                android:drawablePadding="5dp"
+                                android:text="999+"
+                                android:textColor="#999999"
+                                android:textSize="11sp"
+                                dt:drawableHeight="15dp"
+                                dt:drawablePosition="left"
+                                dt:drawableSrc="@mipmap/icon_collect_n"
+                                dt:drawableWidth="15dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_share"
+                                android:layout_width="20dp"
+                                android:layout_height="21dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="12dp"
+                                android:padding="3dp"
+                                android:src="@drawable/video_icon_share" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="简介"
+                                android:textColor="@color/text_color_3"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <WebView
+                                android:id="@+id/web_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="10dp"
+                                android:text="$5.00"
+                                android:textColor="@color/theme_1"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/bg_f9"
+                                android:drawableLeft="@drawable/video_sign001"
+                                android:drawablePadding="8dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="12dp"
+                                android:text="@string/valid_date" />
+
+                            <include layout="@layout/view_divider_10" />
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rv_list"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"/>
+
+                            <include layout="@layout/view_divider_1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="12dp"
+                                android:text="相关视频推荐"
+                                android:textColor="@color/text_color_3"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <com.idyoga.live.view.ListViewForScrollView
+                                android:id="@+id/lv_list"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:divider="@color/white"
+                                android:dividerHeight="0dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tv_comment_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="12dp"
+                                    android:text="评论"
+                                    android:textColor="@color/text_color_3"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <com.idyoga.live.view.ListViewForScrollView
+                                    android:id="@+id/lv_comment_list"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:divider="@color/white"
+                                    android:dividerHeight="0dp" />
+
+                                <include
+                                    layout="@layout/layout_common_footer"
+                                    android:visibility="gone" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.idyoga.live.view.CustomScrollView>
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_comment_layout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_comment_send"
+                    android:layout_width="68dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_barrage_send"
+                    android:gravity="center"
+                    android:text="发布"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/et_comment_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toStartOf="@+id/tv_comment_send"
+                    android:background="@drawable/bg_dialog_et_say"
+                    android:gravity="center_vertical"
+                    android:hint="说点什么"
+                    android:imeOptions="flagNoExtractUi"
+                    android:maxLength="22"
+                    android:maxLines="3"
+                    android:minLines="1"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/text_color_3"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>-->
+    </LinearLayout>
+</LinearLayout>

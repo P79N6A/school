@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:id="@+id/ll_activation_card"
+        android:visibility="gone"
+        android:background="@drawable/bg_bgc_08"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:src="@drawable/activation_card"
+            android:layout_width="90dp"
+            android:layout_marginRight="51dp"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:text="激活新权益卡"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.idyoga.yoga.common.view.Label.LabelLinearLayout
+        android:id="@+id/ll_label"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:padding="3dp"
+        app:backgroundColor="@color/text_color_tab_1"
+        app:direction="rightTop"
+        app:labelBottomPadding="10dp"
+        app:labelTopDistance="20dp"
+        app:labelTopPadding="10dp"
+        app:textContent="晚场"
+        app:textContentSize="14sp"
+        app:textTitleColor="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_vip_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="VIP权益卡"
+                android:textStyle="bold"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <View
+                android:id="@+id/v_heng"
+                android:layout_marginTop="25dp"
+                android:layout_width="26dp"
+                android:background="#f8f8f8"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:text="有效次数：90次（已用5次）"
+                android:textColor="#ededed"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="有效期：2018-10-10"
+                android:textColor="#ededed"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </com.idyoga.yoga.common.view.Label.LabelLinearLayout>
+
+</RelativeLayout>

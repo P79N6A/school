@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_more_shop_info"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_shop_name"
+                android:text="魔鬼瑜伽馆"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_v"
+                android:src="@drawable/home_icon_certification_default"
+                android:layout_marginTop="13.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_ima"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="81dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <View
+            android:background="#f8f8f8"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/yoga_icon_time_default"
+                android:id="@+id/iv_time"
+                android:layout_width="18dp"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:id="@+id/rv_business_time"
+                android:text="营业时间：周一至周日"
+                android:layout_toRightOf="@id/iv_time"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_acreage"
+                android:text="面积：420m"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/rv_business_time"
+                android:layout_alignLeft="@id/rv_business_time"
+                android:textColor="@color/text_color_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#f8f8f8"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_height="46dp">
+
+            <ImageView
+                android:src="@drawable/position_aaa"
+                android:id="@+id/iv_address"
+                android:layout_width="18dp"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:id="@+id/rv_address"
+                android:text="地址"
+                android:layout_toRightOf="@id/iv_time"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:background="#f8f8f8"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_simple_shop_info"
+        android:layout_width="match_parent"
+        android:layout_height="371dp">
+
+        <ImageView
+            android:id="@+id/iv_shop_image"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="278dp" />
+
+        <TextView
+            android:layout_alignBottom="@id/iv_shop_image"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="43dp"
+            android:textSize="12sp"
+            android:text="1/1"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/shop_image_page_num"
+            android:gravity="center"
+            android:layout_height="25dp" />
+        
+        <TextView
+            android:id="@+id/tv_shop_names"
+            android:paddingLeft="12dp"
+            android:text="魔鬼瑜伽馆"
+            android:textSize="17sp"
+            android:layout_below="@id/iv_shop_image"
+            android:textColor="@color/text_color"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_below="@id/tv_shop_names"
+            android:background="#f8f8f8"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_address"
+            android:orientation="horizontal"
+            android:layout_below="@id/view"
+            android:paddingLeft="12dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/yoga_icon_positioning_default"
+                android:layout_width="22dp"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/tv_iamge_address"
+                android:text="魔鬼瑜伽馆"
+                android:textSize="14sp"
+                android:layout_marginLeft="7dp"
+                android:layout_below="@+id/view"
+                android:textColor="@color/text_color"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+        </LinearLayout>
+
+        <View
+            android:background="#f8f8f8"
+            android:layout_below="@id/ll_address"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

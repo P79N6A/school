@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:gravity="center"
+    android:background="#f8f8f8"
+    android:orientation="horizontal">
+
+    <View
+        android:background="@color/text_color_6"
+        android:layout_width="25dp"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:text="到底啦"
+        android:textSize="12sp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textColor="@color/text_color_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/text_color_6"
+        android:layout_width="25dp"
+        android:layout_height="1dp" />
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="0.5dp"
+        android:background="@color/white">
+
+        <View
+            android:id="@+id/img"
+            android:layout_width="5dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_mine_tv" />
+
+        <TextView
+            android:id="@+id/tv_head_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="@string/home_experience_recommend_class"
+            android:textColor="@color/home_experience_font_recommend_class" />
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/theme_1" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/view_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_itemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_course_img" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/iv_img"
+            android:layout_toStartOf="@+id/ll_layout_price"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/tv_distance"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="现联瑜伽馆广州研究院"
+                android:textColor="@color/text_color"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv_comment_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:text="99+评价"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="广东省广州市天河区"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="1.6km"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>-->
+</LinearLayout>

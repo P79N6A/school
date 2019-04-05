@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="233dp">
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#A873FB"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:text="课程"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/text_color"
+        android:layout_toRightOf="@id/v"
+        android:textSize="16sp"
+        android:layout_marginLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_teacher"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@id/v"
+        android:layout_height="203dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

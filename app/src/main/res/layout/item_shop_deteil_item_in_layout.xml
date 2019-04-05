@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <RelativeLayout
+                android:background="#FF8C8D"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:id="@+id/rv_new_pic"
+                    android:text="￥5.00"
+                    android:textSize="15sp"
+                    android:layout_above="@id/v"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_old_pic"
+                    android:text="￥10.00"
+                    android:textSize="14sp"
+                    android:layout_below="@id/v"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:rotation="-45"
+            android:textSize="12sp"
+            android:text="剩余100张"
+            android:gravity="center_horizontal"
+            android:paddingTop="17dp"
+            android:layout_width="61dp"
+            android:layout_height="61dp" />
+
+        <TextView
+            android:id="@+id/tv_card_name"
+            android:text="瑜伽健康年卡"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="11dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_down_time"
+            android:text="距离结束：12时:23分:12秒"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_card_name"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="11dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:layout_height="31dp">
+
+            <TextView
+                android:text="我想买"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_width="75dp"
+                android:layout_marginRight="11dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/tv_buy"
+                android:text="我想买"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/buy_card_btn_bg"
+                android:layout_marginRight="10dp"
+                android:layout_width="75dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

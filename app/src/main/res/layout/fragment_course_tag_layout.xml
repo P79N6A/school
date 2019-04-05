@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_tag"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:background="#fafafa"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_more"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="41dp">
+
+        <TextView
+            android:text="查看完整功效介绍"
+            android:textSize="13sp"
+            android:textColor="@color/text_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/right_down"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

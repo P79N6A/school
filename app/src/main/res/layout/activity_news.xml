@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/view_comm_title"/>
+
+    <vip.devkit.view.common.tab.AdvancedPagerSlidingTabStrip
+        android:id="@+id/course_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:apTabDividerColor="#00000000"
+        app:apTabIndicatorColor="@color/theme_1"
+        app:apTabTextSelectColor="@color/theme_1" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/course_vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs" />
+
+</LinearLayout>

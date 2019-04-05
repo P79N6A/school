@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/view_comm_title" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_submit"
+        android:layout_below="@+id/head">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/sv_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlv_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:orientation="vertical"
+                    android:background="#EEE6FC"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="预约状态"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="40dp"
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_state"
+                        android:layout_marginRight="37dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/course_icon_success_default"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <!--<LinearLayout
+                        android:id="@+id/ll_layout_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/icon_time_tag"
+                            android:drawablePadding="5dp"
+                            android:text="预计确认时间："
+                            android:textColor="#686868"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00:00"
+                            android:textColor="#f39b6c"
+                            android:textSize="14sp" />
+                    </LinearLayout>-->
+
+                    <!--<TextView
+                        android:id="@+id/tv_remarks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="注：若瑜伽馆没有在40分钟之内确认\n则自动取消订单"
+                        android:textColor="@color/text_color_9"
+                        android:textSize="14sp" />-->
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_info"
+                    android:layout_below="@+id/rlv_head"
+                    android:orientation="vertical"
+                    android:paddingTop="66dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_shop_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="12dp"
+                        android:drawablePadding="6dp"
+                        android:drawableLeft="@drawable/success_icon_pavilion_default"
+                        android:text="瑜伽馆:"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12dp"
+                        android:background="#f8f8f8" />
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="44dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="12dp"
+                        android:text="地址"
+                        android:drawableLeft="@drawable/yoga_icon_positioning_default"
+                        android:drawablePadding="6dp"
+                        android:textColor="@color/text_color_6" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#f8f8f8" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="8dp"
+                        android:layout_height="44dp">
+
+                        <TextView
+                            android:id="@+id/tv_result_state"
+                            android:text="预约被取消"
+                            android:textColor="@color/text_color"
+                            android:textSize="15sp"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/iv_result_state_right"
+                            android:src="@drawable/right_down"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp" />
+
+                        <TextView
+                            android:id="@+id/tv_result_time"
+                            android:text="2018年12月31日 14:00"
+                            android:gravity="center"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp"
+                            android:layout_toLeftOf="@+id/iv_result_state_right"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/v_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12dp"
+                        android:background="#f8f8f8" />
+
+                    <RelativeLayout
+                        android:id="@+id/ll_start_state"
+                        android:layout_width="match_parent"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="8dp"
+                        android:layout_height="44dp">
+
+                        <TextView
+                            android:id="@+id/tv_start_state"
+                            android:text="预约被取消"
+                            android:textColor="@color/text_color"
+                            android:textSize="15sp"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:visibility="invisible"
+                            android:id="@+id/iv_state_right"
+                            android:src="@drawable/right_down"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp" />
+
+                        <TextView
+                            android:id="@+id/tv_start_time"
+                            android:text="2018年12月31日 14:00"
+                            android:gravity="center"
+                            android:textColor="@color/text_color_6"
+                            android:textSize="14sp"
+                            android:layout_toLeftOf="@+id/iv_state_right"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                    <!--<TextView
+                        android:id="@+id/tv_tutor_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center|left"
+                        android:padding="12dp"
+                        android:text="导师名称："
+                        android:textColor="#686868" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#f4f4f4" />-->
+
+                    <!--<LinearLayout
+                        android:id="@+id/ll_service"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:drawableLeft="@drawable/icon_service_call"
+                            android:drawablePadding="10dp"
+                            android:gravity="center"
+                            android:padding="12dp"
+                            android:text="联系客服"
+                            android:textColor="@color/theme_1" />
+                    </LinearLayout>-->
+
+                    <!--<View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#f4f4f4" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_course_qrCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_dialog_rounded_corner"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_sign_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="打卡二维码"
+                            android:textColor="@color/text_color"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_qr_code"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bg_a_04"
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_course" />
+
+                        <TextView
+                            android:id="@+id/tv_qr_state"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="二维码已过期"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_a_04"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:background="#f4f4f4" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="注意事项:"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/user_appointment_course_detail"
+                            android:textSize="14sp" />
+                    </LinearLayout>-->
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_below="@+id/ll_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_follow_title"
+                        android:text="注意事项"
+                        android:textSize="17sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/text_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_follow"
+                        android:textSize="14sp"
+                        android:text="@string/follow_content"
+                        android:layout_marginTop="12dp"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:layout_below="@+id/tv_follow_title"
+                        android:textColor="@color/text_color_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:padding="12dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tv_course_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:gravity="center|left"
+                            android:text="课程名称"
+                            android:textSize="17sp"
+                            android:textColor="@color/text_color" />
+
+                        <TextView
+                            android:id="@+id/tv_course_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|left"
+                            android:text="上课时间"
+                            android:textSize="14sp"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/text_color_6" />
+
+                        <TextView
+                            android:id="@+id/tv_time_type"
+                            android:text="开课时间"
+                            android:textColor="@color/order_time_type"
+                            android:textSize="14sp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|right"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <View
+        android:layout_above="@+id/ll_submit"
+        android:background="#f8f8f8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_submit"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_service"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:src="@drawable/schedule_icon_phone_default"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            android:background="@color/theme_1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="取消预约"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

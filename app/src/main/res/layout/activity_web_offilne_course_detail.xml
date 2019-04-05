@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include android:id="@+id/title"
+        layout="@layout/view_comm_title"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_web_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/ll_foot_layout"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_foot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/view_line"/>
+
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_relay" />
+        <ImageView
+            android:id="@+id/tv_consult"
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@id/iv_share"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_consult" />
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/theme_1"
+            android:gravity="center"
+            android:text="立刻预约"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

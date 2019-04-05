@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_tag"
+        android:layout_width="79dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="79dp">
+
+        <ImageView
+            android:id="@+id/iv_tag_iamge"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_tag_name"
+        android:textSize="15sp"
+        android:text="助眠减压"
+        app:layout_constraintLeft_toRightOf="@id/cv_tag"
+        app:layout_constraintTop_toTopOf="@id/cv_tag"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</android.support.constraint.ConstraintLayout>

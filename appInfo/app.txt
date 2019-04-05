@@ -1,0 +1,56 @@
+ keyAlias 'yoga'
+ keyPassword 'aA123456'
+ storeFile file('../appInfo/key.jks')
+ storePassword 'aA123456'
+
+D:\ItemCode\yoga>keytool -exportcert -list -v -keystore  D:\ItemCode\yoga\appInfo\key.jks
+输入密钥库口令:
+
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: yoga
+创建日期: 2018-3-26
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=yoga, OU=Zhuhai Xian Lian Yu Jun Lan Operation Management Co. Ltd., O=Zhuhai Xian Lian Yu Jun Lan Operation Management Co. Ltd., L=
+Guangzhou City, ST=Guangdong Province, C=510000
+发布者: CN=yoga, OU=Zhuhai Xian Lian Yu Jun Lan Operation Management Co. Ltd., O=Zhuhai Xian Lian Yu Jun Lan Operation Management Co. Ltd., L=
+Guangzhou City, ST=Guangdong Province, C=510000
+序列号: 11bc2b59
+有效期开始日期: Mon Mar 26 17:12:26 CST 2018, 截止日期: Tue Mar 13 17:12:26 CST 2068
+证书指纹:
+         MD5: A7:01:AB:DF:E7:4A:AB:CF:17:BA:D1:FE:DA:1F:27:65
+         SHA1: 5C:1C:1D:AE:52:8A:27:55:62:A2:8E:98:FD:69:42:7D:56:BC:12:97
+         SHA256: E7:07:5A:AD:C3:2C:1D:04:F1:AD:24:6C:23:23:6F:15:7B:27:F2:76:D2:4A:D2:07:99:32:47:99:FC:B0:51:B0
+         签名算法名称: SHA256withRSA
+         版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4C 46 10 68 B7 05 66 E8   8C A1 14 D8 6B 67 C5 0C  LF.h..f.....kg..
+0010: 72 B0 C7 C8                                        r...
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+应用：瑜伽学院
+包名：com.idyoga.yoga
+MD5: a701abdfe74aabcf17bad1feda1f2765
+MD5: A7:01:AB:DF:E7:4A:AB:CF:17:BA:D1:FE:DA:1F:27:65
+SHA1: 5C:1C:1D:AE:52:8A:27:55:62:A2:8E:98:FD:69:42:7D:56:BC:12:97
+SHA256: E7:07:5A:AD:C3:2C:1D:04:F1:AD:24:6C:23:23:6F:15:7B:27:F2:76:D2:4A:D2:07:99:32:47:99:FC:B0:51:B0
+
+
+13097340262
+15772747952

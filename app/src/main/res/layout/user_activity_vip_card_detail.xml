@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_comm_title" />
+
+    <!---->
+    <com.idyoga.yoga.common.view.Label.LabelLinearLayout
+        android:id="@+id/ll_label"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:padding="3dp"
+        app:direction="rightTop"
+        android:background="@drawable/bg_blue"
+        app:backgroundColor="@color/text_color_tab_1"
+        app:labelBottomPadding="10dp"
+        app:labelTopDistance="20dp"
+        app:labelTopPadding="10dp"
+        app:textContent=""
+        app:textContentSize="14sp"
+        app:textTitleColor="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_vip_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="VIP权益卡"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="有效次数：90次（已用5次）"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="有效期：2018-10-10"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </com.idyoga.yoga.common.view.Label.LabelLinearLayout>
+    <include
+        layout="@layout/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:text="剩余次数：1次"
+        android:textColor="@color/text_color"
+        android:textSize="14sp" />
+    <RelativeLayout
+        android:id="@+id/rl_card_child"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <include layout="@layout/view_line" />
+
+
+        <TextView
+            android:id="@+id/tv_card_child"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            android:text="附属卡：0"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/iv_course_b_into"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/ic_more" />
+    </RelativeLayout>
+    <include layout="@layout/view_line" />
+    <RelativeLayout
+        android:id="@+id/rl_card_course"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            android:text="课程范围"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/ic_more" />
+    </RelativeLayout>
+    <include layout="@layout/view_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="使用规则" />
+
+        <TextView
+            android:id="@+id/tv_rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left|top" />
+    </LinearLayout>
+</LinearLayout>

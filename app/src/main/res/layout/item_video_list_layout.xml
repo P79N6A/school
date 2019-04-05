@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<com.idyoga.yoga.view.ItemListView
+        android:id="@+id/rlv_video"
+        android:divider="#fafafa"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.idyoga.yoga.view.ItemListView>-->
+
+    <include
+        layout="@layout/iten_hot_video_head"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_video"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_height="151dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</LinearLayout>

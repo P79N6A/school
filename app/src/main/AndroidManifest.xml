@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idyoga.yoga">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.idyoga.yoga" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 8.0安装需要的权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.idyoga.yoga"
+        android:protectionLevel="normal" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".comm.AppContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.loading.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.loading.SetCityActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.qrc.SaoErWeiMaActivity"
+            android:launchMode="standard" />
+        <activity android:name=".activity.qrc.ScanResultActivity" />
+        <activity android:name=".activity.user.LoginActivity" />
+        <activity
+            android:name=".activity.user.RegisterActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".activity.user.MineMakeInfoActivity" />
+        <activity android:name=".activity.user.ForgetPwdActivity" />
+        <activity android:name=".activity.user.UpdatePwdActivity" />
+        <activity android:name=".activity.card.MembershipCardActivity" />
+        <activity android:name=".activity.card.CardDetailsActivity" />
+        <activity android:name=".activity.card.InValidChildCardListActivity" />
+        <activity android:name=".activity.user.AccountActivity" />
+        <activity android:name=".activity.course.CourseActivity" />
+        <activity android:name=".activity.course.CourseDetailsActivity" />
+        <activity android:name=".activity.course.StayConfirmCourseDetailActivity" />
+        <activity
+            android:name=".activity.loading.LoadingActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.home.SubjectVideoActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.video.VodModeActivity" />
+        <activity android:name=".activity.home.AppointmentIntroductionActivity" />
+        <activity android:name=".activity.home.ExperienceLessonAppointmentActivity" />
+        <activity android:name=".activity.home.SubjectListActivity" />
+        <activity android:name=".activity.web.YogaWebActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name=".activity.web.WebActivity" />
+        <activity android:name=".activity.home.LessonAppointmentResultActivity" />
+        <activity android:name=".activity.setting.SettingActivity" />
+        <activity android:name=".activity.setting.AboutActivity" />
+        <activity android:name=".activity.setting.FeedbackActivity" />
+        <activity android:name=".activity.lbs.LbsActivity" />
+        <activity android:name=".activity.course.UserStudyCourseActivity" />
+        <activity android:name=".activity.web.YogaGymDetailsActivity" />
+        <activity android:name=".activity.web.YogaGymClassifyActivity" />
+        <activity android:name=".activity.web.YogaGymCourseDetailsActivity" />
+        <activity android:name=".activity.web.ExperienceCourseClassifyActivity" />
+        <activity android:name=".activity.web.ExperienceCourseClassifyDetailsActivity" />
+        <activity android:name=".activity.web.OfflineCourseDetailsActivity" />
+        <activity android:name=".activity.web.ExperienceCourseDetailsActivity" />
+        <activity android:name=".activity.web.TutorDetailsActivity" />
+        <activity android:name=".activity.web.UserCardDetailsActivity" />
+        <activity android:name=".activity.web.UserCardListActivity" />
+        <activity android:name=".activity.web.VideoCourseDetailsActivity" />
+        <activity android:name=".activity.web.ClassifyChooseActivity" />
+        <activity android:name=".activity.web.ConsultActivity" />
+        <activity android:name=".activity.news.NewsActivity" />
+        <activity android:name=".activity.news.NewsDetailsActivity" />
+        <activity android:name=".activity.search.SearchLeadActivity" />
+        <activity android:name=".activity.search.SearchActivity" />
+        <activity android:name=".activity.course.ClassifyChoiceActivity" />
+        <activity android:name=".activity.tutor.TutorListActivity" />
+        <activity android:name=".activity.tutor.TutorSelectActivity" />
+        <activity android:name=".activity.tutor.TutorDetailActivity" />
+        <activity android:name=".activity.tutor.TutorVideoCourseActivity" />
+        <activity android:name=".activity.shop.ShopSelectActivity" />
+        <activity android:name=".activity.shop.ShopListActivity" />
+        <activity android:name=".activity.shop.ShopOfflineCourseActivity" />
+        <activity android:name=".activity.shop.ShopExperienceCourseActivity" />
+        <activity android:name=".activity.course.ExperienceCourseListActivity" />
+        <activity android:name=".activity.course.ExperienceCourseClassifyActivity" />
+        <activity android:name=".activity.course.OfflineCourseBuyActivity" />
+        <activity android:name=".activity.course.AppointmentCourseDetailActivity" />
+        <activity android:name=".activity.card.ChildCardListActivity" />
+        <activity android:name=".activity.card.AddChildCardActivity" />
+        <activity android:name=".activity.card.CardCourseRangeActivity" />
+        <activity android:name=".activity.course.AppointmentVideoCourseActivity" />
+        <activity android:name=".activity.course.ConsultCourseActivity" />
+        <activity android:name=".activity.course.ConsultCourseDetailActivity" />
+        <activity android:name=".activity.video.VideoClassifyActivity" />
+        <activity android:name=".activity.video.VideoClassifyListActivity" />
+        <activity android:name=".activity.shop.ShopDetailActivity" />
+        <activity android:name=".activity.shop.ShopMarketCourseActivity" />
+        <activity android:name=".activity.shop.ShopTutorActivity" />
+        <activity android:name=".activity.shop.ShopVideoCourseActivity" />
+        <activity android:name=".activity.shop.ShopCourseInfoActivity" />
+        <activity android:name=".activity.shop.ShopMarketCourseAppointmentActivity" />
+        <activity android:name=".activity.shop.YogaShoppingActivity" />
+        <activity
+            android:name=".activity.course.CourseCommentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.video.VideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.TestActivity" >
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity android:name=".activity.TestUploadFileActivity" />
+
+        <service
+            android:name=".common.push.PushService"
+            android:exported="true"
+            android:label="PushService" />
+
+        <!-- 百度统计 -->
+        <!-- 您从百度网站获取的APP KEY，根据实际您的APP申请的APP_KEY进行修改 -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="5vzriHi3TxZD4hj64GbAYYS279PpPx1P" />
+
+        <!-- 渠道商编号 -->
+        <!-- ${BAIDU_CHANNEL_VALUE} -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="Baidu Market" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+        <!-- share -->
+        <activity android:name="vip.devkit.common.share._ShareActivity" />
+
+        <activity-alias
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:targetActivity="vip.devkit.common.share._ShareActivity" />
+        <!-- share end -->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <!-- 微信支付 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".activity.loading.BindPhoneNumActivity" />
+
+        <!-- push service start -->
+        <!-- 用于接收系统消息以保证PushService正常运行 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":push_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <!-- Push服务接收客户端发送的各种请求 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":push_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".push.YogaPushMessageReceiver">
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":push_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+
+        <!-- 适配Android N系统必需的ContentProvider声明，写权限包含应用包名 -->
+        <provider
+            android:name="com.baidu.android.pushservice.PushInfoProvider"
+            android:authorities="${applicationId}.bdpush"
+            android:exported="true"
+            android:protectionLevel="signature"
+            android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.idyoga.yoga" />
+        <!-- 百度地图推送KEY -->
+        <meta-data
+            android:name="api_key"
+            android:value="5vzriHi3TxZD4hj64GbAYYS279PpPx1P" />
+        <!-- 百度地图/定位 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="LGhgIaqEKVKbw452HKb7tIvk5Po1uqIj" />
+
+        <activity android:name=".activity.card.ActivationCardActivity" />
+        <activity android:name=".activity.card.ActivaSuccessActivity" />
+        <activity android:name=".activity.user.WelcomeActivity" />
+
+        <activity
+            android:name=".activity.TextActivity"
+            android:label="@string/title_activity_text"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <!--我关注的瑜伽馆-->
+        <activity android:name=".activity.user.FollowShopActivity"/>
+        <!--预约课程成功-->
+        <activity android:name=".activity.course.OrderCourseSuccessActivity">
+
+        </activity>
+        <!--预约课程列表-->
+        <activity android:name=".activity.course.OrderCourseListActivity">
+
+        </activity>
+
+        <activity android:name=".activity.shop.ShopImagesActivity">
+
+        </activity>
+
+        <activity android:name=".activity.web.HomeWebActivity"/>
+
+        <activity android:name=".activity.SpecialDetailActivity"/>
+
+        <activity android:name=".activity.video.VideoDetailActivity">
+
+        </activity>
+    </application>
+
+</manifest>

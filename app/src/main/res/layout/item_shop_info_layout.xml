@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="12dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_itemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_course_img" />
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/iv_img"
+            android:layout_toStartOf="@+id/ll_layout_price"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/tv_distance"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textSize="15sp"
+                android:text="现联瑜伽馆广州研究院"
+                android:textColor="@color/text_color"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:ems="15"
+                android:text="广东省广州市天河区"
+                android:textColor="#828282"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="1.6km"
+                android:layout_marginBottom="2dp"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_shop_image"
+        android:layout_width="match_parent"
+        android:paddingLeft="12dp"
+        android:layout_height="81dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/view"
+        android:layout_marginTop="15dp"
+        android:background="#F8F8F8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/rl_group"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_height="21dp">
+
+        <TextView
+            android:text="团"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="@drawable/group_bg"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_object_name"
+            android:text="空中瑜伽年卡"
+            android:layout_marginLeft="8dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="现在仅需 "
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="￥"
+            android:gravity="bottom"
+            android:textSize="10sp"
+            android:textColor="#E23C3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_new_pic"
+            android:text="1388"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#E23C3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_old_pic"
+            android:text="原价￥2800"
+            android:textSize="11sp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/text_color_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/rl_spike"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="21dp">
+
+        <TextView
+            android:text="秒"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/spike_bg"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_spike_object_name"
+            android:text="全课程年卡"
+            android:layout_marginLeft="8dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="秒杀价"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="￥"
+            android:gravity="bottom"
+            android:textSize="10sp"
+            android:textColor="#E23C3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_spike_new_pic"
+            android:text="1388"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#E23C3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!--
+    <LinearLayout
+            android:id="@+id/ll_layout_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+    <com.idyoga.yoga.view.ItemListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:divider="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_layout_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_footer_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center|left"
+            android:paddingLeft="65dp"
+            android:text="查看更多"
+            android:textColor="@color/theme_1"
+            android:textSize="12sp" />
+    </LinearLayout>-->
+</LinearLayout>

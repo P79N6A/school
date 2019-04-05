@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_common_layout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_web_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:src="@drawable/ic_blank_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_web_close"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:src="@drawable/ic_web_close" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_web_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_web_more"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingLeft="15dp">
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:src="@drawable/ic_web_more" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/view_line"/>
+
+
+</LinearLayout>

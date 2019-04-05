@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idyoga.yoga.common">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+      <!--  <activity android:name="vip.devkit.common.share._ShareActivity"/>
+        <activity-alias
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:targetActivity="vip.devkit.common.share._ShareActivity"
+            />-->
+    </application>
+</manifest>

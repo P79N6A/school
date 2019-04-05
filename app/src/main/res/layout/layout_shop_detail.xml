@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="12dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="254dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_shop_name"
+                android:text="魔鬼瑜伽馆"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/home_icon_certification_default"
+                android:layout_marginTop="13.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_shop_image"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="81dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <View
+            android:layout_marginRight="12dp"
+            android:background="#f8f8f8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_time"
+                android:src="@drawable/yoga_icon_time_default"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="18dp"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time_name"
+                android:text="营业时间:"
+                android:textSize="14sp"
+                android:textColor="@color/text_color"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="9dp"
+                app:layout_constraintLeft_toRightOf="@id/iv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:text="周一至周日 (10:00 - 22:00)"
+                android:textSize="14sp"
+                android:textColor="@color/text_color"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintLeft_toRightOf="@id/tv_time_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_area_name"
+                android:text="面积:"
+                android:textColor="@color/text_color"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="@id/tv_time_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_time_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_area"
+                android:text="430"
+                android:textColor="@color/text_color"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="9dp"
+                app:layout_constraintLeft_toRightOf="@id/tv_area_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_time_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.constraint.ConstraintLayout>
+
+        <View
+            android:background="#f8f8f8"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/nav_icon_positioning_default"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="天河区天盈创意园2042号"
+                android:id="@+id/tv_shop_address"
+                android:textSize="14sp"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:lines="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_course" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_shop_banner" />
+
+        <TextView
+            android:id="@+id/tv_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <include layout="@layout/view_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_shop_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_toStartOf="@+id/iv_address"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:lines="1" />
+
+        <ImageView
+            android:id="@+id/iv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/tv_nav"
+            android:src="@drawable/icon_address_01" />
+
+        <TextView
+            android:id="@+id/tv_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <include layout="@layout/view_line" />
+
+    <TextView
+        android:id="@+id/tv_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f2f2f2" />-->
+</LinearLayout>

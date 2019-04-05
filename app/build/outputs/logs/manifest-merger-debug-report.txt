@@ -1,0 +1,1282 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:212:9-220:20
+	android:grantUriPermissions
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:216:13-47
+	android:authorities
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:214:13-64
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:215:13-37
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:213:13-67
+provider#com.baidu.android.pushservice.PushInfoProvider
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:291:9-296:102
+	android:authorities
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:293:13-58
+	android:protectionLevel
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:295:13-48
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:294:13-36
+	android:writePermission
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:296:13-99
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:292:13-74
+manifest
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+MERGED from [:common] /home/weilgu/newrepo/scroller/ZhXlApp/common/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-26:12
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:2:1-20:12
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] /home/weilgu/.gradle/caches/transforms-1/files-1.1/permissions4m-2.1.2-lib.aar/fd684a7cdaa4cd720f106afeb8455945/AndroidManifest.xml:2:1-16:12
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:2:1-28:12
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:2:1-53:12
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:2:1-62:12
+MERGED from [com.github.mcxtzhang:SuspensionIndexBar:V1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/SuspensionIndexBar-V1.0.0.aar/cf66b2c80ad83d9e6ea45d75e01be64f/AndroidManifest.xml:2:1-13:12
+MERGED from [vip.devkit:widget.calendarview:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/widget.calendarview-1.0.0.aar/736cb2bd4f0dc66f22084907fae734b3/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.zzhoujay.richtext:richtext:3.0.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/richtext-3.0.7.aar/8a1a36ddb78f30ebdb017e44db57e94c/AndroidManifest.xml:2:1-12:12
+MERGED from [com.alibaba.android:vlayout:1.2.8] /home/weilgu/.gradle/caches/transforms-1/files-1.1/vlayout-1.2.8.aar/735bba8b8380a6113a4ce1426f5a6e29/AndroidManifest.xml:25:1-35:12
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/1ca504e6d3fc0cb75c90d202b6dccaea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/8debd214fe757f64e14b3a955e1b5420/AndroidManifest.xml:2:1-7:12
+MERGED from [com.zhy:okhttputils:2.6.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/ee31379132dc760eeaed287bf381cc31/AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/6bcda45c492ccb96cd5eb654ac245501/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/65d5ac32ad1cb083efb4fce62e977642/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e0f5b43a7f6f09b427717461f376fba2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40] /home/weilgu/.gradle/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.40.aar/d9875c509971cb239ec8d45247a1c7c3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.7.aar/1babbab0ed35383304584d54446b0ee7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:17:1-61:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/d7c80b0e4f07a3dfd6ce8b9ee210e079/AndroidManifest.xml:2:1-13:12
+MERGED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/jsbridge-1.0.4.aar/f5e1c4d739b6d34e99c653706f9cdbca/AndroidManifest.xml:2:1-16:12
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:2:1-14:12
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:2:1-17:12
+MERGED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:2:1-14:12
+MERGED from [:AliyunVodPlayerView:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayerView.aar/a40ce70e4321f9d61f22e0969834c541/AndroidManifest.xml:2:1-11:12
+MERGED from [com.zzhoujay.markdown:markdown:1.0.5] /home/weilgu/.gradle/caches/transforms-1/files-1.1/markdown-1.0.5.aar/7300d0e06e9bbf505c0ded0dd9b79532/AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/aa54485080e0852cdc095db4eb3b51c5/AndroidManifest.xml:17:1-25:12
+MERGED from [io.reactivex:rxandroid:1.2.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/9e273da1e9bcc5901bbe794b5f7356f1/AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+	package
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:1-345:12
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:11:5-67
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:11:5-67
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:12:5-67
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:8:5-84
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:11:5-84
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:11:5-84
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:8:22-81
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:19:5-79
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:18:5-79
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:18:5-79
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:12:5-79
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:12:5-79
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:11:5-79
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:11:5-76
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:17:5-76
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:17:5-76
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:13:5-76
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:13:5-76
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:11:5-76
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:11:5-76
+MERGED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:11:5-76
+MERGED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:12:5-80
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:15:5-80
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:15:5-80
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:12:5-80
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:12:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:13:5-81
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:13:5-81
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:13:5-81
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:11:5-81
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:11:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:14:5-65
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:17:5-65
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:14:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:15:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:16:5-75
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:13:5-75
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.READ_LOGS
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:18:5-66
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:13:5-66
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:18:22-63
+uses-permission#baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.idyoga.yoga
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:21:5-100
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:21:22-97
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:22:22-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:23:5-68
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:14:5-68
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:24:5-73
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:16:5-73
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:16:5-73
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:12:5-73
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:24:22-70
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:27:5-83
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:14:5-83
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:27:22-80
+permission#baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.idyoga.yoga
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:29:5-31:44
+	android:protectionLevel
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:31:9-41
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:30:9-84
+supports-screens
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:33:5-38:39
+	android:largeScreens
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:35:9-36
+	android:smallScreens
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:38:9-36
+	android:normalScreens
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:36:9-37
+	android:resizeable
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:37:9-34
+	android:anyDensity
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:34:9-34
+application
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:40:5-343:19
+MERGED from [:common] /home/weilgu/newrepo/scroller/ZhXlApp/common/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-24:19
+MERGED from [:common] /home/weilgu/newrepo/scroller/ZhXlApp/common/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-24:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:11:5-18:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] /home/weilgu/.gradle/caches/transforms-1/files-1.1/permissions4m-2.1.2-lib.aar/fd684a7cdaa4cd720f106afeb8455945/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] /home/weilgu/.gradle/caches/transforms-1/files-1.1/permissions4m-2.1.2-lib.aar/fd684a7cdaa4cd720f106afeb8455945/AndroidManifest.xml:11:5-14:19
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:22:5-26:19
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:22:5-26:19
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:19:5-51:19
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:19:5-51:19
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:15:5-60:19
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:15:5-60:19
+MERGED from [com.github.mcxtzhang:SuspensionIndexBar:V1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/SuspensionIndexBar-V1.0.0.aar/cf66b2c80ad83d9e6ea45d75e01be64f/AndroidManifest.xml:11:5-20
+MERGED from [com.github.mcxtzhang:SuspensionIndexBar:V1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/SuspensionIndexBar-V1.0.0.aar/cf66b2c80ad83d9e6ea45d75e01be64f/AndroidManifest.xml:11:5-20
+MERGED from [vip.devkit:widget.calendarview:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/widget.calendarview-1.0.0.aar/736cb2bd4f0dc66f22084907fae734b3/AndroidManifest.xml:11:5-14:19
+MERGED from [vip.devkit:widget.calendarview:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/widget.calendarview-1.0.0.aar/736cb2bd4f0dc66f22084907fae734b3/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e0f5b43a7f6f09b427717461f376fba2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e0f5b43a7f6f09b427717461f376fba2/AndroidManifest.xml:9:5-20
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:16:5-28:19
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:16:5-28:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:26:5-59:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/d7c80b0e4f07a3dfd6ce8b9ee210e079/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/d7c80b0e4f07a3dfd6ce8b9ee210e079/AndroidManifest.xml:11:5-20
+MERGED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/jsbridge-1.0.4.aar/f5e1c4d739b6d34e99c653706f9cdbca/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/jsbridge-1.0.4.aar/f5e1c4d739b6d34e99c653706f9cdbca/AndroidManifest.xml:11:5-14:19
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:14:5-15:19
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:14:5-15:19
+MERGED from [com.zzhoujay.markdown:markdown:1.0.5] /home/weilgu/.gradle/caches/transforms-1/files-1.1/markdown-1.0.5.aar/7300d0e06e9bbf505c0ded0dd9b79532/AndroidManifest.xml:12:5-20
+MERGED from [com.zzhoujay.markdown:markdown:1.0.5] /home/weilgu/.gradle/caches/transforms-1/files-1.1/markdown-1.0.5.aar/7300d0e06e9bbf505c0ded0dd9b79532/AndroidManifest.xml:12:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/aa54485080e0852cdc095db4eb3b51c5/AndroidManifest.xml:23:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/aa54485080e0852cdc095db4eb3b51c5/AndroidManifest.xml:23:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:45:9-35
+	android:label
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:44:9-41
+	android:icon
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:43:9-40
+	android:allowBackup
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:42:9-35
+	android:theme
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:46:9-40
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:41:9-40
+activity#com.idyoga.yoga.activity.loading.WelcomeActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:47:9-56:20
+	android:screenOrientation
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:49:13-49
+	android:theme
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:50:13-47
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:48:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:54:27-74
+activity#com.idyoga.yoga.activity.loading.SetCityActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:57:9-70
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:57:19-67
+activity#com.idyoga.yoga.activity.MainActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:58:9-59
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:58:19-56
+activity#com.idyoga.yoga.activity.qrc.SaoErWeiMaActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:59:9-61:45
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:61:13-42
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:60:13-60
+activity#com.idyoga.yoga.activity.qrc.ScanResultActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:62:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:62:19-66
+activity#com.idyoga.yoga.activity.user.LoginActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:63:9-65
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:63:19-62
+activity#com.idyoga.yoga.activity.user.RegisterActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:64:9-66:67
+	android:windowSoftInputMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:66:13-64
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:65:13-59
+activity#com.idyoga.yoga.activity.user.MineMakeInfoActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:67:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:67:19-69
+activity#com.idyoga.yoga.activity.user.ForgetPwdActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:68:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:68:19-66
+activity#com.idyoga.yoga.activity.user.UpdatePwdActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:69:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:69:19-66
+activity#com.idyoga.yoga.activity.card.MembershipCardActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:70:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:70:19-71
+activity#com.idyoga.yoga.activity.card.CardDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:71:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:71:19-68
+activity#com.idyoga.yoga.activity.card.InValidChildCardListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:72:9-80
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:72:19-77
+activity#com.idyoga.yoga.activity.user.AccountActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:73:9-67
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:73:19-64
+activity#com.idyoga.yoga.activity.course.CourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:74:9-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:74:19-65
+activity#com.idyoga.yoga.activity.course.CourseDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:75:9-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:75:19-72
+activity#com.idyoga.yoga.activity.course.StayConfirmCourseDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:76:9-85
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:76:19-82
+activity#com.idyoga.yoga.activity.loading.LoadingActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:77:9-79:46
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:79:13-43
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:78:13-61
+activity#com.idyoga.yoga.activity.home.SubjectVideoActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:80:9-84:52
+	android:screenOrientation
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:84:13-49
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:83:13-43
+	android:configChanges
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:82:13-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:81:13-63
+activity#com.idyoga.yoga.activity.video.VodModeActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:85:9-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:85:19-65
+activity#com.idyoga.yoga.activity.home.AppointmentIntroductionActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:86:9-83
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:86:19-80
+activity#com.idyoga.yoga.activity.home.ExperienceLessonAppointmentActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:87:9-87
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:87:19-84
+activity#com.idyoga.yoga.activity.home.SubjectListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:88:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:88:19-68
+activity#com.idyoga.yoga.activity.web.YogaWebActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:89:9-90:45
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:90:13-43
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:89:19-63
+activity#com.idyoga.yoga.activity.web.WebActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:91:9-62
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:91:19-59
+activity#com.idyoga.yoga.activity.home.LessonAppointmentResultActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:92:9-83
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:92:19-80
+activity#com.idyoga.yoga.activity.setting.SettingActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:93:9-70
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:93:19-67
+activity#com.idyoga.yoga.activity.setting.AboutActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:94:9-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:94:19-65
+activity#com.idyoga.yoga.activity.setting.FeedbackActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:95:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:95:19-68
+activity#com.idyoga.yoga.activity.lbs.LbsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:96:9-62
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:96:19-59
+activity#com.idyoga.yoga.activity.course.UserStudyCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:97:9-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:97:19-74
+activity#com.idyoga.yoga.activity.web.YogaGymDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:98:9-73
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:98:19-70
+activity#com.idyoga.yoga.activity.web.YogaGymClassifyActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:99:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:99:19-71
+activity#com.idyoga.yoga.activity.web.YogaGymCourseDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:100:9-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:100:19-76
+activity#com.idyoga.yoga.activity.web.ExperienceCourseClassifyActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:101:9-83
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:101:19-80
+activity#com.idyoga.yoga.activity.web.ExperienceCourseClassifyDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:102:9-90
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:102:19-87
+activity#com.idyoga.yoga.activity.web.OfflineCourseDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:103:9-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:103:19-76
+activity#com.idyoga.yoga.activity.web.ExperienceCourseDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:104:9-82
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:104:19-79
+activity#com.idyoga.yoga.activity.web.TutorDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:105:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:105:19-68
+activity#com.idyoga.yoga.activity.web.UserCardDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:106:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:106:19-71
+activity#com.idyoga.yoga.activity.web.UserCardListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:107:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:107:19-68
+activity#com.idyoga.yoga.activity.web.VideoCourseDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:108:9-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:108:19-74
+activity#com.idyoga.yoga.activity.web.ClassifyChooseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:109:9-73
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:109:19-70
+activity#com.idyoga.yoga.activity.web.ConsultActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:110:9-66
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:110:19-63
+activity#com.idyoga.yoga.activity.news.NewsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:111:9-64
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:111:19-61
+activity#com.idyoga.yoga.activity.news.NewsDetailsActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:112:9-71
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:112:19-68
+activity#com.idyoga.yoga.activity.search.SearchLeadActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:113:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:113:19-69
+activity#com.idyoga.yoga.activity.search.SearchActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:114:9-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:114:19-65
+activity#com.idyoga.yoga.activity.course.ClassifyChoiceActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:115:9-76
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:115:19-73
+activity#com.idyoga.yoga.activity.tutor.TutorListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:116:9-70
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:116:19-67
+activity#com.idyoga.yoga.activity.tutor.TutorSelectActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:117:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:117:19-69
+activity#com.idyoga.yoga.activity.tutor.TutorDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:118:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:118:19-69
+activity#com.idyoga.yoga.activity.tutor.TutorVideoCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:119:9-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:119:19-74
+activity#com.idyoga.yoga.activity.shop.ShopSelectActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:120:9-70
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:120:19-67
+activity#com.idyoga.yoga.activity.shop.ShopListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:121:9-68
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:121:19-65
+activity#com.idyoga.yoga.activity.shop.ShopOfflineCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:122:9-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:122:19-74
+activity#com.idyoga.yoga.activity.shop.ShopExperienceCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:123:9-80
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:123:19-77
+activity#com.idyoga.yoga.activity.course.ExperienceCourseListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:124:9-82
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:124:19-79
+activity#com.idyoga.yoga.activity.course.ExperienceCourseClassifyActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:125:9-86
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:125:19-83
+activity#com.idyoga.yoga.activity.course.OfflineCourseBuyActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:126:9-78
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:126:19-75
+activity#com.idyoga.yoga.activity.course.AppointmentCourseDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:127:9-85
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:127:19-82
+activity#com.idyoga.yoga.activity.card.ChildCardListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:128:9-73
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:128:19-70
+activity#com.idyoga.yoga.activity.card.AddChildCardActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:129:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:129:19-69
+activity#com.idyoga.yoga.activity.card.CardCourseRangeActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:130:9-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:130:19-72
+activity#com.idyoga.yoga.activity.course.AppointmentVideoCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:131:9-84
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:131:19-81
+activity#com.idyoga.yoga.activity.course.ConsultCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:132:9-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:132:19-72
+activity#com.idyoga.yoga.activity.course.ConsultCourseDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:133:9-81
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:133:19-78
+activity#com.idyoga.yoga.activity.video.VideoClassifyActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:134:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:134:19-71
+activity#com.idyoga.yoga.activity.video.VideoClassifyListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:135:9-78
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:135:19-75
+activity#com.idyoga.yoga.activity.shop.ShopDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:136:9-70
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:136:19-67
+activity#com.idyoga.yoga.activity.shop.ShopMarketCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:137:9-76
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:137:19-73
+activity#com.idyoga.yoga.activity.shop.ShopTutorActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:138:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:138:19-66
+activity#com.idyoga.yoga.activity.shop.ShopVideoCourseActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:139:9-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:139:19-72
+activity#com.idyoga.yoga.activity.shop.ShopCourseInfoActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:140:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:140:19-71
+activity#com.idyoga.yoga.activity.shop.ShopMarketCourseAppointmentActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:141:9-87
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:141:19-84
+activity#com.idyoga.yoga.activity.shop.YogaShoppingActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:142:9-72
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:142:19-69
+activity#com.idyoga.yoga.activity.course.CourseCommentActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:143:9-147:71
+	android:screenOrientation
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:146:13-49
+	android:windowSoftInputMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:147:13-68
+	android:configChanges
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:145:13-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:144:13-66
+activity#com.idyoga.yoga.activity.video.VideoActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:148:9-151:52
+	android:screenOrientation
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:151:13-49
+	android:configChanges
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:150:13-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:149:13-57
+activity#com.idyoga.yoga.activity.TestActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:152:9-158:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:152:19-56
+activity#com.idyoga.yoga.activity.TestUploadFileActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:160:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:160:19-66
+service#com.idyoga.yoga.common.push.PushService
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:162:9-165:43
+	android:label
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:165:13-40
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:164:13-36
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:163:13-52
+meta-data#BaiduMobAd_STAT_ID
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:169:9-171:64
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:171:13-61
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:170:13-46
+meta-data#BaiduMobAd_CHANNEL
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:175:9-177:44
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:177:13-41
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:176:13-46
+meta-data#BaiduMobAd_EXCEPTION_LOG
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:180:9-182:36
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:182:13-33
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:181:13-52
+meta-data#BaiduMobAd_ONLY_WIFI
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:184:9-186:37
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:186:13-34
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:185:13-48
+meta-data#BaiduMobAd_CELL_LOCATION
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:189:9-191:36
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:191:13-33
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:190:13-52
+meta-data#BaiduMobAd_GPS_LOCATION
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:194:9-196:36
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:196:13-33
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:195:13-51
+meta-data#BaiduMobAd_WIFI_LOCATION
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:199:9-201:36
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:201:13-33
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:200:13-52
+activity#vip.devkit.common.share._ShareActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:204:9-75
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:44:9-54:20
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:44:9-54:20
+	android:launchMode
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:46:13-44
+	android:theme
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:48:13-72
+	android:taskAffinity
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:204:19-72
+activity-alias#com.idyoga.yoga.wxapi.WXEntryActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:206:9-209:79
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:56:9-59:79
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:208:13-36
+	android:targetActivity
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:209:13-76
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:207:13-50
+activity#com.idyoga.yoga.wxapi.WXPayEntryActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:222:9-225:46
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:225:13-43
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:224:13-36
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:223:13-53
+activity#com.idyoga.yoga.wxapi.WXEntryActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:226:9-230:64
+	android:launchMode
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:229:13-43
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:228:13-36
+	android:theme
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:230:13-61
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:227:13-50
+activity#com.idyoga.yoga.activity.loading.BindPhoneNumActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:231:9-75
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:231:19-72
+receiver#com.baidu.android.pushservice.PushServiceReceiver
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:235:9-249:20
+	android:process
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:237:13-39
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:236:13-77
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:238:13-248:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:239:17-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:239:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:240:17-79
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:240:25-76
+action#com.baidu.android.pushservice.action.notification.SHOW
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:241:17-97
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:241:25-94
+action#com.baidu.android.pushservice.action.media.CLICK
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:242:17-91
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:242:25-88
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:244:17-78
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:244:25-75
+action#android.intent.action.USER_PRESENT
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:245:17-77
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:245:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:246:17-87
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:246:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:247:17-90
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:247:25-87
+receiver#com.baidu.android.pushservice.RegistrationReceiver
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:251:9-263:20
+	android:process
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:253:13-39
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:252:13-78
+intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:254:13-257:29
+action#com.baidu.android.pushservice.action.METHOD
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:255:17-86
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:255:25-83
+action#com.baidu.android.pushservice.action.BIND_SYNC
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:256:17-89
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:256:25-86
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:258:13-262:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:259:17-80
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:259:25-77
+data
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:261:17-50
+	android:scheme
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:261:23-47
+receiver#com.idyoga.yoga.push.YogaPushMessageReceiver
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:264:9-274:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:264:19-63
+intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:265:13-273:29
+action#com.baidu.android.pushservice.action.MESSAGE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:268:17-87
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:268:25-84
+action#com.baidu.android.pushservice.action.RECEIVE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:270:17-87
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:270:25-84
+action#com.baidu.android.pushservice.action.notification.CLICK
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:272:17-98
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:272:25-95
+service#com.baidu.android.pushservice.PushService
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:276:9-283:19
+	android:process
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:279:13-39
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:278:13-36
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:277:13-69
+intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:280:13-282:29
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:281:17-92
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:281:25-89
+service#com.baidu.android.pushservice.CommandService
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:286:9-288:39
+	android:exported
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:288:13-36
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:287:13-72
+meta-data#api_key
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:298:9-300:64
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:300:13-61
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:299:13-35
+service#com.baidu.location.f
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:302:9-305:41
+	android:process
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:305:13-38
+	android:enabled
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:304:13-35
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:303:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:307:9-309:64
+	android:value
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:309:13-61
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:308:13-52
+activity#com.idyoga.yoga.activity.card.ActivationCardActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:311:9-74
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:311:19-71
+activity#com.idyoga.yoga.activity.card.ActivaSuccessActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:312:9-73
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:312:19-70
+activity#com.idyoga.yoga.activity.user.WelcomeActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:313:9-67
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:313:19-64
+activity#com.idyoga.yoga.activity.TextActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:315:9-320:20
+	android:label
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:317:13-56
+	android:theme
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:318:13-44
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:316:13-50
+activity#com.idyoga.yoga.activity.user.FollowShopActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:322:9-69
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:322:19-67
+activity#com.idyoga.yoga.activity.course.OrderCourseSuccessActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:324:9-326:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:324:19-77
+activity#com.idyoga.yoga.activity.course.OrderCourseListActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:328:9-330:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:328:19-74
+activity#com.idyoga.yoga.activity.shop.ShopImagesActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:332:9-334:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:332:19-67
+activity#com.idyoga.yoga.activity.web.HomeWebActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:336:9-65
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:336:19-63
+activity#com.idyoga.yoga.activity.SpecialDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:338:9-67
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:338:19-65
+activity#com.idyoga.yoga.activity.video.VideoDetailActivity
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:340:9-342:20
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:340:19-69
+uses-sdk
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+MERGED from [:common] /home/weilgu/newrepo/scroller/ZhXlApp/common/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:common] /home/weilgu/newrepo/scroller/ZhXlApp/common/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] /home/weilgu/.gradle/caches/transforms-1/files-1.1/permissions4m-2.1.2-lib.aar/fd684a7cdaa4cd720f106afeb8455945/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] /home/weilgu/.gradle/caches/transforms-1/files-1.1/permissions4m-2.1.2-lib.aar/fd684a7cdaa4cd720f106afeb8455945/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SuspensionIndexBar:V1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/SuspensionIndexBar-V1.0.0.aar/cf66b2c80ad83d9e6ea45d75e01be64f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SuspensionIndexBar:V1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/SuspensionIndexBar-V1.0.0.aar/cf66b2c80ad83d9e6ea45d75e01be64f/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:widget.calendarview:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/widget.calendarview-1.0.0.aar/736cb2bd4f0dc66f22084907fae734b3/AndroidManifest.xml:7:5-9:41
+MERGED from [vip.devkit:widget.calendarview:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/widget.calendarview-1.0.0.aar/736cb2bd4f0dc66f22084907fae734b3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.zzhoujay.richtext:richtext:3.0.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/richtext-3.0.7.aar/8a1a36ddb78f30ebdb017e44db57e94c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.zzhoujay.richtext:richtext:3.0.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/richtext-3.0.7.aar/8a1a36ddb78f30ebdb017e44db57e94c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.alibaba.android:vlayout:1.2.8] /home/weilgu/.gradle/caches/transforms-1/files-1.1/vlayout-1.2.8.aar/735bba8b8380a6113a4ce1426f5a6e29/AndroidManifest.xml:31:5-33:41
+MERGED from [com.alibaba.android:vlayout:1.2.8] /home/weilgu/.gradle/caches/transforms-1/files-1.1/vlayout-1.2.8.aar/735bba8b8380a6113a4ce1426f5a6e29/AndroidManifest.xml:31:5-33:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/1ca504e6d3fc0cb75c90d202b6dccaea/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/library-1.2.4.aar/1ca504e6d3fc0cb75c90d202b6dccaea/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.jakewharton:butterknife:8.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/8debd214fe757f64e14b3a955e1b5420/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/8debd214fe757f64e14b3a955e1b5420/AndroidManifest.xml:5:5-43
+MERGED from [com.zhy:okhttputils:2.6.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/ee31379132dc760eeaed287bf381cc31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/ee31379132dc760eeaed287bf381cc31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/6bcda45c492ccb96cd5eb654ac245501/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/6bcda45c492ccb96cd5eb654ac245501/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/65d5ac32ad1cb083efb4fce62e977642/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/65d5ac32ad1cb083efb4fce62e977642/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e0f5b43a7f6f09b427717461f376fba2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e0f5b43a7f6f09b427717461f376fba2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:7:5-9:41
+MERGED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40] /home/weilgu/.gradle/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.40.aar/d9875c509971cb239ec8d45247a1c7c3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40] /home/weilgu/.gradle/caches/transforms-1/files-1.1/BaseRecyclerViewAdapterHelper-2.9.40.aar/d9875c509971cb239ec8d45247a1c7c3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.7.aar/1babbab0ed35383304584d54446b0ee7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /home/weilgu/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.7.aar/1babbab0ed35383304584d54446b0ee7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/d7c80b0e4f07a3dfd6ce8b9ee210e079/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/d7c80b0e4f07a3dfd6ce8b9ee210e079/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/jsbridge-1.0.4.aar/f5e1c4d739b6d34e99c653706f9cdbca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/jsbridge-1.0.4.aar/f5e1c4d739b6d34e99c653706f9cdbca/AndroidManifest.xml:7:5-9:41
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:7:5-9:41
+MERGED from [:AlivcPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcPlayer.aar/0bd29db97bbb7cec14933b29b870b986/AndroidManifest.xml:7:5-9:41
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:7:5-9:41
+MERGED from [:AlivcReporter:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AlivcReporter.aar/17be97539483c0e8b86d2b9765341054/AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVodPlayerView:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayerView.aar/a40ce70e4321f9d61f22e0969834c541/AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVodPlayerView:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayerView.aar/a40ce70e4321f9d61f22e0969834c541/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zzhoujay.markdown:markdown:1.0.5] /home/weilgu/.gradle/caches/transforms-1/files-1.1/markdown-1.0.5.aar/7300d0e06e9bbf505c0ded0dd9b79532/AndroidManifest.xml:8:5-10:41
+MERGED from [com.zzhoujay.markdown:markdown:1.0.5] /home/weilgu/.gradle/caches/transforms-1/files-1.1/markdown-1.0.5.aar/7300d0e06e9bbf505c0ded0dd9b79532/AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/aa54485080e0852cdc095db4eb3b51c5/AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/aa54485080e0852cdc095db4eb3b51c5/AndroidManifest.xml:21:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/9e273da1e9bcc5901bbe794b5f7356f1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.1.aar/9e273da1e9bcc5901bbe794b5f7356f1/AndroidManifest.xml:19:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:217:13-219:58
+	android:resource
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:219:17-55
+	android:name
+		ADDED from /home/weilgu/newrepo/scroller/ZhXlApp/app/src/main/AndroidManifest.xml:218:17-67
+activity#com.uuzuche.lib_zxing.activity.CaptureActivity
+ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:12:9-17:63
+	android:screenOrientation
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/zxing-library-2.2.aar/75bc5497cba3a6ccf05323f5e663cb3a/AndroidManifest.xml:13:13-74
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:11:5-84
+	android:name
+		ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:11:22-81
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:15:22-68
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:20:5-98
+	android:name
+		ADDED from [vip.devkit:common.util:1.0.6] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.util-1.0.6.aar/3661e7ded5f79b78bf1d86bcf1dfdbce/AndroidManifest.xml:20:22-95
+activity#vip.devkit.view.common.ImgPicker.ui.ImageBaseActivity
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:23:9-90
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:23:19-87
+activity#vip.devkit.view.common.ImgPicker.ui.ImageGridActivity
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:24:9-27:55
+	android:configChanges
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:26:13-59
+	android:theme
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:25:13-81
+activity#vip.devkit.view.common.ImgPicker.ui.ImageCropActivity
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:28:9-32:55
+	android:hardwareAccelerated
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:31:13-48
+	android:configChanges
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:30:13-59
+	android:theme
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:32:13-52
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:29:13-81
+activity#vip.devkit.view.common.ImgPicker.ui.ImagePreviewActivity
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:33:9-36:65
+	android:configChanges
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:35:13-59
+	android:theme
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:36:13-62
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:34:13-84
+activity#vip.devkit.view.common.ImgPicker.ui.ImagePreviewDelActivity
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:37:9-40:65
+	android:configChanges
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:39:13-59
+	android:theme
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:40:13-62
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:38:13-87
+provider#vip.devkit.view.common.ImgPicker.ImagePickerProvider
+ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:42:9-50:20
+	android:grantUriPermissions
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:46:13-47
+	android:authorities
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:44:13-60
+	android:exported
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [vip.devkit:common.widget:1.3.2] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.widget-1.3.2.aar/49f28d110847ab3e60adce1ef8d1a276/AndroidManifest.xml:43:13-80
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:19:9-24:20
+	android:windowSoftInputMode
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:23:13-55
+	android:exported
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:22:13-37
+	android:configChanges
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:21:13-63
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:20:13-72
+activity#com.tencent.connect.common.AssistActivity
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:25:9-31:20
+	android:screenOrientation
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:28:13-47
+	android:configChanges
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:27:13-63
+	android:theme
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:30:13-72
+	android:taskAffinity
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:26:13-69
+activity#com.tencent.tauth.AuthActivity
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:32:9-43:20
+	android:noHistory
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:33:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:35:13-42:29
+action#android.intent.action.VIEW
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:39:27-75
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:49:13-53:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:50:17-92
+	android:name
+		ADDED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:50:25-89
+activity-alias#${applicationId}.wxapi.WXEntryActivity
+MERGED from [vip.devkit:common.share:1.1.3] /home/weilgu/.gradle/caches/transforms-1/files-1.1/common.share-1.1.3.aar/afa1b7adf11d27cfa7723a10b97f2011/AndroidManifest.xml:56:9-59:79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6353a1a29ac37c61cab8a415f8c47d6e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/2064d413cdb5e681b76f969d67109da0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77fa22931240df8876e579569a82c8b5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b84f69ab3c67c0e428e52d1bd6f87735/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/19a405d33565af2b419e523032e793ab/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca9a7d1fcf40b234e50aa32b79e2287d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/12d40573222db5037ec8ca61730ef9e2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/47e24437e86096dd51fa9e4b20b69d99/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/574cc7d9b2fc75a44277d028d04a3d12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/ec4bdadfb2b51e8ca105c4a09971d91e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/083af1d89a6cef8d167399b7f8f2be7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6bbd159fa3c0fb73253908a4e183f2f/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ff655dc91c06a27982175912d6bc6861/AndroidManifest.xml:27:13-51
+service#com.king.app.updater.service.DownloadService
+ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:17:9-80
+	android:name
+		ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:17:18-77
+provider#com.king.app.updater.provider.AppUpdaterFileProvider
+ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:23:13-47
+	android:authorities
+		ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:21:13-64
+	android:exported
+		ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [com.king.app:app-updater:1.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/app-updater-1.0.aar/53f9ff2710cfa63013c32db7eacfb535/AndroidManifest.xml:20:13-80
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:36:9-49:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:41:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:38:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:40:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:39:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:42:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:37:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:50:9-58:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:56:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:55:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:53:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:54:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:58:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:57:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /home/weilgu/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/91b26437888439e1624ebc976b22cf40/AndroidManifest.xml:51:13-93
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.0.1] /home/weilgu/.gradle/caches/transforms-1/files-1.1/easypermissions-1.0.1.aar/81abfd62bc393dbc66ff48ddb16d3a36/AndroidManifest.xml:13:13-86
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [:AliyunVodPlayer:] /home/weilgu/.gradle/caches/transforms-1/files-1.1/AliyunVodPlayer.aar/9c7e33279d2d9e7e1cf91076934e46e9/AndroidManifest.xml:12:22-73
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/weilgu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc100272ec7042c6a77fc67265759db4/AndroidManifest.xml:26:13-58

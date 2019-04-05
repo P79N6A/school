@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="42dp">
+
+        <TextView
+            android:text="上课须知"
+            android:textSize="13sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="42dp">
+
+        <TextView
+            android:text="课程时长"
+            android:textSize="13sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/text_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_course_time"
+            android:text="60分钟"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_marginLeft="79dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="42dp">
+
+        <TextView
+            android:text="预约时间"
+            android:textSize="13sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/text_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_order_time"
+            android:text="请提前1天进行预约"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_marginLeft="79dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="42dp">
+
+        <TextView
+            android:text="学员要求"
+            android:textSize="13sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/text_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_require"
+            android:text="男女不限"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#f8f8f8"
+        android:layout_marginLeft="79dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:minHeight="42dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="提供服务"
+            android:textSize="13sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/text_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_service"
+            android:text="WIFI、停车位、物品寄存、瑜伽道具、更衣室、消毒毛巾"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#fafafa"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</LinearLayout>

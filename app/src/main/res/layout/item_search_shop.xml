@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="visible"
+        android:gravity="center_vertical">
+
+        <com.idyoga.yoga.view.csstv.CSSTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:text="TITLE"
+            android:textColor="@color/text_color_3"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_toStartOf="@+id/iv_img_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="查看更多"
+            android:gravity="center"
+            android:textColor="@color/text_color_9"
+            android:textSize="12sp"
+            android:id="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/iv_img_more"
+            android:layout_width="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#dcdcdc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_itemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_course_img" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/iv_img"
+            android:layout_toStartOf="@+id/ll_layout_price"
+            android:orientation="vertical">
+
+            <com.idyoga.yoga.view.csstv.CSSTextView
+                android:id="@+id/tv_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/tv_distance"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="现联瑜伽馆广州研究院"
+                android:textSize="14sp"
+                android:textColor="@color/text_color"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="广东省广州市天河区"
+                android:textColor="#828282"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="1.6km"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_layout_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#f2f2f2" />
+
+    <View
+        android:id="@+id/view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="gone"
+        android:background="#f2f2f2" />
+
+</LinearLayout>
